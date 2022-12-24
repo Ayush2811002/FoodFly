@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:overScrollMode="never"
+    android:scrollbars="none"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:src="@drawable/icon2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OTP Verification"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter the otp sent to you"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="14dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="50dp"
+          android:textSize="14dp"
+
+        android:layout_gravity="center"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/int1"
+            android:layout_width="40dp"
+            android:layout_height="46dp"
+            android:background="@drawable/shape2"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            tools:ignore="LableFor" />
+
+
+        <EditText
+            android:id="@+id/int2"
+            android:layout_width="40dp"
+            android:layout_height="46dp"
+            android:background="@drawable/shape2"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            tools:ignore="LableFor" />
+
+        <EditText
+            android:id="@+id/int3"
+            android:layout_width="40dp"
+            android:layout_height="46dp"
+            android:background="@drawable/shape2"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            tools:ignore="LableFor" />
+
+        <EditText
+            android:id="@+id/int4"
+            android:layout_width="40dp"
+            android:layout_height="46dp"
+            android:background="@drawable/shape2"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            tools:ignore="LableFor" />
+
+        <EditText
+            android:id="@+id/int5"
+            android:layout_width="40dp"
+            android:layout_height="46dp"
+            android:background="@drawable/shape2"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            tools:ignore="LableFor" />
+
+        <EditText
+            android:id="@+id/int6"
+            android:layout_width="40dp"
+            android:layout_height="46dp"
+            android:background="@drawable/shape2"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            tools:ignore="LableFor" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Didn\'t recive the otp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/resnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="RESEND THE CODE"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        
+
+
+    </LinearLayout>
+
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button1"
+
+        android:text="Verify" />
+
+    <ProgressBar
+        android:id="@+id/depr2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</FrameLayout>
+</LinearLayout>
+
+
+
+
+
+
+</ScrollView>

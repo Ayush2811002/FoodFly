@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1050992795778",
+    "project_id": "foodfly-b2dd5",
+    "storage_bucket": "foodfly-b2dd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050992795778:android:37e1c14b131c3ac4b9549b",
+        "android_client_info": {
+          "package_name": "com.example.foodfly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050992795778-r2phf26htf8pvv1lfd5mmcf32iur1coa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtKJVOVLnZwc4Fz8t2iE8e59OR4zozdwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050992795778-r2phf26htf8pvv1lfd5mmcf32iur1coa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
